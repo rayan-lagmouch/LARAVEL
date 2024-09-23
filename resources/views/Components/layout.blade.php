@@ -21,8 +21,8 @@
                         <div class="ml-10 flex items-baseline space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <x-nav href="/" :active="request()->is('/')">HOME</x-nav>
-                            <x-nav href="/about" :active="request()->is('about')">ABOUT</x-nav>
-                            <x-nav href="/contact" :active="request()->is('contact')">CONTACT</x-nav>
+                            <x-nav href="/jobs" :active="request()->is('jobs')">JOBS</x-nav>
+                            <x-nav :active="request()->is('contact')" type=" button">CONTACT</x-nav>
                         </div>
                     </div>
                 </div>
